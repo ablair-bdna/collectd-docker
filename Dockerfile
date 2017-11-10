@@ -51,4 +51,3 @@ WORKDIR /scripts
 ENTRYPOINT ["/scripts/entry.sh"]
 
 CMD ["run.sh"]
-
