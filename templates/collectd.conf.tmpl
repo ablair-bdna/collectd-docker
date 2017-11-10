@@ -127,14 +127,14 @@ Include "/etc/collectd/plugin-cfgs/{{.}}.conf"
 #LoadPlugin cgroups
 #LoadPlugin conntrack
 #LoadPlugin contextswitch
-#LoadPlugin cpu
+LoadPlugin cpu
 #LoadPlugin cpufreq
 #LoadPlugin csv
 #LoadPlugin curl
 #LoadPlugin curl_json
 #LoadPlugin curl_xml
 #LoadPlugin dbi
-#LoadPlugin df
+LoadPlugin df
 #LoadPlugin disk
 #LoadPlugin dns
 #LoadPlugin drbd
@@ -161,7 +161,7 @@ Include "/etc/collectd/plugin-cfgs/{{.}}.conf"
 #LoadPlugin md
 #LoadPlugin memcachec
 #LoadPlugin memcached
-#LoadPlugin memory
+LoadPlugin memory
 #LoadPlugin modbus
 #LoadPlugin multimeter
 #LoadPlugin mysql
